@@ -1,0 +1,39 @@
+body {
+  padding-bottom: 30px;
+}
+
+/** Navigation **/
+#navigation a.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#navbar a:hover, #navbar a:active {
+  background-color: #3b3b3b;
+}
+#navbar a {
+  color: #fff;
+}
+
+/** Content **/
+#content section {
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+}
+
+/*
+Fix: Avoid displayin section headers behind navigation bar when
+navigation links are clicked
+https://github.com/twbs/bootstrap/issues/1768
+
+#chicken:before,
+#beef:before,
+#sushi:before {
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 60px;
+  visibility: hidden;
+}
+*/
